@@ -9,13 +9,11 @@ package opcional.pri;
  *
  * @author juan
  */
-public class OpcionalPri {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        Ventana ventana = new Ventana();
-    }
+public interface InterfaceJuego {
     
+    public void iniciarJuego();
+    
+    public String estadoJuego();
+    
+    public void nuevaRonda();
 }
